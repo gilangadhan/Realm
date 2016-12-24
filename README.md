@@ -1,4 +1,4 @@
-# Realm
+# simple CRUD Realm (https://realm.io/)
 # license by Gilang Ramadhan
 # www.codinate.id
 # gilangramadhan96.gr@gmail.com
