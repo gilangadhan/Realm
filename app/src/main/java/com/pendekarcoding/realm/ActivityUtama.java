@@ -13,6 +13,7 @@ import android.view.View;
 import java.util.ArrayList;
 
 public class ActivityUtama extends AppCompatActivity {
+    //variable global
     private RecyclerView recyclerView;
     private RealmHelper  helper;
     private ArrayList<ModelSiswa> data;
@@ -33,7 +34,8 @@ public class ActivityUtama extends AppCompatActivity {
         });
         data = new ArrayList<>();
         helper = new RealmHelper(ActivityUtama.this);
-
+        
+        //menggunakan recyclerView
         recyclerView = (RecyclerView) findViewById(R.id.RVSiswa);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
