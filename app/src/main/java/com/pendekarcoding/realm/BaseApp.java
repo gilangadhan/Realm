@@ -13,6 +13,7 @@ import io.realm.RealmSchema;
  */
 
 public class BaseApp extends Application {
+    // untuk membuat database
     @Override
     public void onCreate() {
         super.onCreate();
