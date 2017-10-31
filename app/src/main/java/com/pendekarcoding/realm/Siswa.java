@@ -10,10 +10,11 @@ public class Siswa extends RealmObject {
     private int id;
     private String nama, alamat;
 
+    //modeling siswa
     public int getId() {
         return id;
     }
-
+    
     public void setId(int id) {
         this.id = id;
     }
