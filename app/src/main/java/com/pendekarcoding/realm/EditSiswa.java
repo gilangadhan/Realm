@@ -41,6 +41,7 @@ public class EditSiswa extends AppCompatActivity {
 
         realmHelper = new RealmHelper(EditSiswa.this);
         data = new ArrayList<>();
+        //menerima data 
         posisi = getIntent().getIntExtra("id", 0);
         intentNama = getIntent().getStringExtra("nama");
         intentAlamat = getIntent().getStringExtra("alamat");
